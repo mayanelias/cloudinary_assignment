@@ -1,0 +1,52 @@
+.ListByTagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin-top: -1rem;
+  padding: 5%;
+  height: 40rem;
+  justify-content: space-between;
+}
+.tagsListTable {
+    width: 23%;
+    height: 30rem;
+    border: 5px solid black;
+}
+table{
+width: 100%;
+}
+th {
+  padding: 10px 20px;
+  font-size: 2rem;
+}
+td{
+width:98%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border:2px solid black;
+}
+.ListByTagContainer img{
+width: 35%;
+height: 4rem;
+border:2px solid black;
+}
+@media screen and (max-width: 768px) {
+  .tagsListTable{
+    margin-left: 0.5%;
+  }
+  .ListByTagContainer{
+  width: 90%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .tagsListTable{
+    margin-left: 0.5%;
+    width: 30%;
+  }
+  .ListByTagContainer{
+  width: 100%;
+  }
+}
+
